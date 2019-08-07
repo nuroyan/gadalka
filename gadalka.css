@@ -18,7 +18,7 @@ h2 {
 	font-size: 14px;
 }
 
-td {
+.navigacia td {
 	background: #40E0D0;
 	opacity: 0.5;
 	width: 15%;
@@ -91,19 +91,57 @@ footer {
 .zvezda {
 	list-style: none;
 	background: url(zvezda.svg) no-repeat left 50%;
-	padding-left: 5%;
-	padding-bottom: 1%;
+	padding-left: 6%;
+	padding-bottom: 2%;
 }
 
 .dostizhenia {
-	background: url(name-fon.jpeg);
+	background: #FFCC8E;
+	padding: 9px;
+	margin-top: 3%;
+	text-align: center;
+	border: 5px dashed #FFA98C;
+	color: #813B14;
 	width: 35%;
-	padding: 5px;
-	opacity: 0.8;
+	margin-left: 40%;
+	margin-bottom: 3%;
+}
+
+.reklama {
+	text-align: center;
+	padding: 3%;
+	padding-top: 50%;
+	padding-bottom: 50%;
+	vertical-align: middle;
+	border: 3px outset #f3baba;
+	background-color: #faf0e6;
+	opacity: 0.7;
+	text-shadow: 4px 4px 2px rgba(0,0,0,0.6);
 }
 
 .dostizh {
+	width: 1000px;
+}
+
+.partnership {
+	width: 13%;
+}
+
+.heart {
+	float: right;
+	margin: 5%;
+	margin-top: 25%;
 	
+}
+
+.serdce {
+	position: fixed;
+	vertical-align: bottom;
+}
+
+.ssilka {
+	font-family: 'Old Standard TT', cursive;
+	color: #813b14;
 }
 
 .uslu {
@@ -145,4 +183,12 @@ footer {
 
 a:hover {
 	color: red;
+}
+
+.ssilka:hover {
+	color: #6921f6;
+}
+
+.reklama:hover {
+	background-color: #fff783;
 }
