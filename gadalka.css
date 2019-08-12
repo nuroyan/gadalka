@@ -35,8 +35,19 @@ footer {
 	border-top: 1px solid #808080;
 	opacity: 0.5;
 	text-align: center;
-	margin-top: 60%;
+	margin-top: 70%;
 	font-family: Ariel, sans-serif;
+}
+
+.love {
+	display: inline;
+}
+
+.loves {
+	height: 45px;
+	position: absolute;
+	left: 52%;
+	opacity: 0;
 }
 
 .header-title {
@@ -131,7 +142,6 @@ footer {
 	float: right;
 	margin: 5%;
 	margin-top: 25%;
-	
 }
 
 .serdce {
@@ -139,17 +149,43 @@ footer {
 	vertical-align: bottom;
 }
 
+.yatyalyu {
+	float: right;
+	background: #aaff00;
+	color: #7569ff;
+	padding: 10px;
+	margin-top: 15px;
+	border: 7px groove #ffa384;
+}
+
 .ssilka {
 	font-family: 'Old Standard TT', cursive;
 	color: #813b14;
 }
 
-.uslu {
-	
+.uslugi {
+	text-align: center;
+	background: url(uslu.png) no-repeat center 100%;
+	font-family: 'Marck Script', cursive;
+	width: 55%;
+	font-size: 25px;
+	line-height: 40px;
+	padding: 30px;
+	padding-top: 20px;
+	padding-bottom: 90px;
+	color: rgba(47,56,61,0.9);
+	margin-left: 20%;
+	margin-top: 4%;
+	display: block;
 }
 
-.uslugi {
-	
+.uslugi li {
+	list-style-type: none;
+}
+
+.abzac {
+	text-indent: 40px;
+	text-align: left;
 }
 
 .kontak {
@@ -191,4 +227,62 @@ a:hover {
 
 .reklama:hover {
 	background-color: #fff783;
+}
+
+.ssilka:active {
+	color: black;
+}
+
+.reklama:active {
+	background-color: blue;
+}
+
+.zvezda:hover {
+	background-color: rgb(210,245,206);
+}
+
+.loves:hover {
+	opacity: 1;
+}
+
+.biograf:hover,
+.avatarka:hover {
+	border: 3px solid #FFACB6;
+}
+
+.biografia:hover,
+.imya:hover {
+	border: 6px ridge #9fcabb;
+}
+
+.dostizhenia:hover {
+	background: #835b5b;
+}
+
+.uslugi:hover {
+	box-shadow: -5px -5px 15px 2px #A39193;
+}
+
+.uslugi li:hover {
+	background: rgba(163,145,147,0.5);
+}
+
+.uslugi .abzac:hover {
+	background: rgba(201,229,255,0.5);
+}
+
+.uslugi p b:hover {
+	font-family: "Comfortaa";
+}
+
+.yatyalyu:hover {
+	color: #f3ff69;
+	background-color: #ffc9e7;
+	border: 7px groove #c9e5ff;
+}
+
+.yatyalyu:active {
+	color: #7569ff;
+	background-color: #efdcdd;
+	border: 7px groove #c9e5ff;
 }
