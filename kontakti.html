@@ -32,7 +32,21 @@
 			  В РАЗРАБОТКЕ
 		  </p>
       </section>
-	  
+	  <form name="comment" action="comment.php" method="post">
+	    <p>
+	      <label for="name">Имя:</label>
+	      <input type="text" name="name" />
+	    </p>
+	    <p>
+	      <label for="text_comment">Комментарий:</label>
+	      <br />
+	      <textarea name="text_comment"></textarea>
+	    </p>
+	    <p>
+	      <input type="hidden" name="page_id" value="150" />
+	      <input type="submit" value="Отправить" />
+	    </p>
+	  </form>
     </main>
 	
     <footer>
@@ -40,5 +54,6 @@
 	  &copy Елена ААроновна ❤<br/><br/><br/>
 	  Пс-с-с, наведи курсор на слово <i>"сердца"</i> в предложении <i>"Гадалка, покорившая сердца милионов"</i> в самом верху страницы!
     </footer>
+	<script src="prefixfree.min.js"></script>
   </body>
 </html>
